@@ -1,0 +1,58 @@
+.woopromo-meta-field-wrap .settings-tab {
+    padding: 16px 0px;
+}
+.woopromo-meta-field-wrap .settings-tab ul li {
+	display: inline-block;
+    background-color: #eee;
+    padding: 8px 15px;
+    color: #333;
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 8px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.woopromo-meta-field-wrap .settings-tab ul li.active,
+.woopromo-meta-field-wrap .settings-tab ul li:hover {
+	background-color: #333;
+	color: #fff; 
+}
+.woopromo-meta-field-wrap .field-item {
+    display: block;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+}
+.woopromo-meta-field-wrap .field-item label {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.woopromo-meta-field-wrap .field-item select,
+.woopromo-meta-field-wrap .field-item input {
+	width: 224px;
+	height: 35px;
+}
+.field-item .woopromo_remove_image_button {
+	background: #eee;
+    padding: 6px 7px;
+    display: inline-block;
+    margin-top: 16px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 #ccc;
+    border: 1px solid #ccc;
+}
+.field-item .woopromo_remove_image_button:hover {
+	background: #fafafa;
+    border-color: #999;
+    color: #23282d;
+}
+.settings-hide {
+	display: none;
+}
+.settings-show {
+	display: block;
+}
